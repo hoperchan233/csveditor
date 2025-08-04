@@ -1,0 +1,32 @@
+简介 / Introduction
+基于Python 加载 CSV 文件，显示散点图，并通过滑块选择时间范围。按 S 键可以保存选中时间段的数据到新的 CSV 文件。
+
+This is a small tool written in Python. It loads a CSV file, displays a scatter plot, and allows you to select a time range with a slider. Press S to save the selected time range data to a new CSV file.
+
+用法 / Usage
+修改 CSV_PATH 变量为CSV 文件路径。
+
+运行脚本：python csveditor.py
+
+拖动滑块选择时间区间。
+
+按 S 键保存当前区间的数据。
+
+Change the CSV_PATH variable to your CSV file path.
+
+Run the script: python csveditor.py
+
+Drag the slider to select a time range.
+
+Press S to save the data of the current range.
+
+依赖 / Dependencies
+pandas
+matplotlib
+安装依赖 / Install dependencies:
+
+备注 / Note
+只适用于包含 time, x, y 三列的 CSV 文件。
+Only works for CSV files with time, x, y columns.
+可以变更为其他列名，但需要在代码中相应修改。
+You can change the column names to others, but you need to modify the code accordingly.
